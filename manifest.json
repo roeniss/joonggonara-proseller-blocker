@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Joonggonra Proseller Blocker",
+    "version": "1.0.0",
+    "description": "중고나라 업자 걸러내기",
+    "author": "Roeniss Moon",
+    "icons": {
+      "16": "icon16.png",
+      "32": "icon32.png"
+    },
+
+    "permissions": ["tabs", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {},
+    "host_permissions": [
+      "https://cafe.naver.com/joonggonara"
+    ]
+  }
